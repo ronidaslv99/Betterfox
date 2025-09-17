@@ -65,6 +65,11 @@ INSTALLATIONS_TO_CHECK = [
         "command": ["flatpak", "run", "org.mozilla.firefox"],
         "root": Path.home().joinpath(".var/app/org.mozilla.firefox/.mozilla/firefox").absolute(),
     },
+    # flatpak for zen browser
+    {
+        "command": ["flatpak", "run", "app.zen_browser.zen"],
+        "root": Path.home().joinpath(".var/app/app.zen_browser.app/.zen").absolute(),
+    }
 ]
 
 
